@@ -1,5 +1,3 @@
-import sys
-
 arr = [
     99,
     114,

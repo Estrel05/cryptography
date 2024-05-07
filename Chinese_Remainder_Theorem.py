@@ -1,6 +1,3 @@
-import sys
-
-
 def extended_gcd(a, b):
     r0, r1 = a, b
     s0, s1 = 1, 0

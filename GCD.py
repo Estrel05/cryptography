@@ -1,6 +1,3 @@
-import sys
-
-
 def gcd(a, b):
     a %= b
     if a == 0:
