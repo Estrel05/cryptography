@@ -1,7 +1,7 @@
 import os
 from Crypto.PublicKey import RSA
 
-os.chdir("C:\\Users\\Estrel\\Documents\\GitHub\\Cryptography\\CERTainly_not")
+os.chdir("C:\\Users\\Estrel\\Documents\\GitHub\\cryptography\\CERTainly_not")
 
 with open("RSA_Key.cer", "r") as file:
     data = file.read()

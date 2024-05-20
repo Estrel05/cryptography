@@ -1,7 +1,7 @@
 import os
 import cv2
 
-os.chdir("C:\\Users\\Estrel\\Documents\\GitHub\\Cryptography\\Lemur_XOR")
+os.chdir("C:\\Users\\Estrel\\Documents\\GitHub\\cryptography\\Lemur_XOR")
 
 lemur = cv2.imread("lemur.png")
 flag = cv2.imread("flag.png")
