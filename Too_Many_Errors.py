@@ -47,7 +47,6 @@ def vec_collect(mode):
         sample = json_recv()
         print(sample)
         vec = np.array(sample["a"])
-        print(vec)
         idx = np.where(mode[:-1] != vec)[0]
         if len(idx) > 0:
             mtx[idx[0]] = [vec[idx[0]], sample["b"]]
